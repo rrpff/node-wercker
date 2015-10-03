@@ -13,7 +13,7 @@ class API {
           try {
             accept(JSON.parse(body));
           } catch (e) {
-            reject(e)
+            reject(e);
           }
         }
       });
@@ -39,7 +39,7 @@ class API {
 ['get', 'put', 'post', 'patch', 'delete'].forEach(method => {
   API.prototype[method] = function () {
     return this.request(method, ...arguments);
-  }
+  };
 });
 
 module.exports = API;
