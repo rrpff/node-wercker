@@ -18,3 +18,5 @@ class Wercker extends API {
     };
   }
 }
+
+module.exports = Wercker;
