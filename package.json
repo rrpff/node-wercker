@@ -1,0 +1,36 @@
+{
+  "name": "wercker",
+  "version": "0.0.0",
+  "description": "Node client for the Wercker API.",
+  "main": "src/index.js",
+  "keywords": [
+    "wercker",
+    "deploy",
+    "api",
+    "pipeline",
+    "build"
+  ],
+  "author": "Richard Foster <richard@rpf.me> (http://rpf.me)",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.64.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuren/node-wercker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zuren/node-wercker/issues"
+  },
+  "homepage": "https://github.com/zuren/node-wercker#readme"
+}
