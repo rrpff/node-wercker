@@ -12,11 +12,11 @@
   ],
   "author": "Richard Foster <richard@rpf.me> (http://rpf.me)",
   "license": "MIT",
-  "dependencies": {
-    "request": "^2.64.0"
-  },
   "directories": {
     "test": "test"
+  },
+  "dependencies": {
+    "request": "^2.64.0"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",
