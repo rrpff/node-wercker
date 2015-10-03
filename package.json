@@ -2,7 +2,7 @@
   "name": "wercker",
   "version": "0.0.0",
   "description": "Node client for the Wercker API.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "keywords": [
     "wercker",
     "deploy",
@@ -25,7 +25,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node_modules/.bin/babel src/ -d dist/"
+    "build": "node_modules/.bin/babel src/ -d dist/",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
