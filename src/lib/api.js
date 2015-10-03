@@ -1,5 +1,4 @@
 const request = require('request');
-const Path = require('path');
 
 class API {
   static request (method, options = {}) {

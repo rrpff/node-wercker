@@ -1,5 +1,4 @@
 const API = require('./lib/api');
-const Path = require('path');
 
 class Wercker extends API {
   constructor ({ token } = {}) {
