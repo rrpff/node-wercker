@@ -1,6 +1,6 @@
 {
   "name": "wercker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Node client for the Wercker API.",
   "main": "dist/index.js",
   "keywords": [
